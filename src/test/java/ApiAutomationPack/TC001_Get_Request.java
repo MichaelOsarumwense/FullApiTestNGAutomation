@@ -22,7 +22,7 @@ public class TC001_Get_Request  {
 
         //print response in console window
         String responseBody = response.getBody().asString();
-        System.out.println("response body is: " + responseBody);
+        System.out.println("response body is really isnt that: " + responseBody);
 
         //status code validation
         int statusCode = response.statusCode();
